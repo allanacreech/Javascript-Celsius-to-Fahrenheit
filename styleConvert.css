@@ -1,0 +1,16 @@
+/**
+ * Google Fonts Demo
+ **/
+h1, h2, h3, h4, h5 {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+/* Add in the Google Fonts of your choice */
+
+body {
+	background-color: pink;
+}
+
+.jumbotron {
+	text-align: center;
+}

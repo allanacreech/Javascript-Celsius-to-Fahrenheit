@@ -1,0 +1,68 @@
+<html>
+<head>
+
+	<!--link for google font Tangerine-->
+	<link rel="stylesheet" type="text/css"
+	href="https://fonts.googleapis.com/css?family=Tangerine">
+
+<!--scaling for device view-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--bootstrap link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--jquery and ajax-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--bootstrap link-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--link for css page-->
+	<link rel="stylesheet" href="styleConvert.css">
+
+  <title>Temparature Converter</title>
+  
+</head>
+<body>
+
+<!--bootstrap container start-->
+<div class="container">
+<div class="jumbotron">
+<h2>Javascript Celsius to Fahrenheit</h2>
+
+<h5>Can you guess the temperature!</h5>
+</div>
+
+
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-6">
+<p >If Fahrenheit is 72 how much is Celsius?</p>
+<p id="display72"></p>
+
+<p>If Fahrenheit is 98 how much is Celsius?</p>
+<p id="display98"></p>
+
+<p>If Celsius is 20 how much is Fahrenheit?</p>
+<p id="diplay20"></p>
+
+<p>If Celsius is 38 how much is Fahrenheit?</p>
+<p id="diplay38"></p>
+</div>
+<div class="col-md-5"></div>
+</div><!--row end-->
+
+<hr>
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-6">
+<p>Simply insert a number into one of the input fields below:</p>
+<p><input id="c" onkeyup="convert('C')">degrees Celsius</p>
+<p><input id="f" onkeyup="convert ('F')">degrees Fahrenheit</p>
+</div>
+<div class="col-md-5"></div>
+<div><!--end of row-->
+
+</div><!--container end-->
+
+<!--Javascript link-->
+<script type="text/javascript" src="convertFtoC.js"></script>
+</body>
+</html>
